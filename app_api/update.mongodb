@@ -4,9 +4,9 @@ db.venues.updateOne({"name":"Starbucks"},
   {$push: {"comments": 
     {
       "_id": ObjectId(),
-      "author": "Zeynep",
+      "author": "Oğuzhan",
       "rating": 4,
-      "text": "İdare eder",
+      "text": "çok kötü",
       "date": new Date()
     }
   }

@@ -2,6 +2,7 @@ var mongoose = require("mongoose");
 
 var dbURI = "mongodb+srv://sinan:12345@mekanbul.jefan4s.mongodb.net/mekanbul";
 //mongodb+srv://sinan:12345@mekanbul.jefan4s.mongodb.net/?retryWrites=true&w=majority
+//mongodb+srv://sinan:12345@mekanbul.jefan4s.mongodb.net/mekanbul
 mongoose.connect(dbURI);
 
 // Bağlantı Olayları (Connection Events)

@@ -2,7 +2,7 @@ const database = 'mekanbul';
 use(database);
 db.venues.insertOne(
 {
-  "name": "Deneme Cam Kafe",
+  "name": " Cam Kafe",
   "address": "SDU Batı Kampüs",
   "rating": 5,
   "foodanddrink": [
